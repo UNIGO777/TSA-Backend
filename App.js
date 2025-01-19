@@ -18,6 +18,7 @@ const Donation = require("./routes/donationRoute");
 
 
 const app = express();
+console.log('start')
 
 // Middleware
 app.use(cors({
